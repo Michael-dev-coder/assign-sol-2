@@ -36,7 +36,7 @@
        quantity: ""
      };
      item.name = arrayOfitems[itemIdex].name;
-     item.quality = arrayOfitems[itemIdex].quality;
+     item.quantity = arrayOfitems[itemIdex].quantity;
      arrayOfitems.splice(itemIdex, 1);
      ShoppingList.items.push(item);
    };
